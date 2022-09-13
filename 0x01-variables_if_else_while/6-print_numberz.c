@@ -1,19 +1,21 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 /**
- * main - Entry point
+ *  * main - Prints numbers between 0 to 9.
  *
- * Return: Always 0 (Success)
+ *   *
+ *
+ *    * Return: Always 0 (Success)
+ *
  */
 int main(void)
 {
-	char low;
+	int i;
 
-	for (low = 'a'; low <= 'z'; low++)
-		putchar(low);
-	for (low = 'A'; low <= 'Z'; low++)
-		putchar(low);
+	for (i = 48; i < 58; i++)
+	{
+		putchar(i);
+	}
 	putchar('\n');
 	return (0);
+
 }
